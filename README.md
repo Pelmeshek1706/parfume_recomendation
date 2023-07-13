@@ -7,6 +7,7 @@ Let's imagine a situation, a perfumery company has asked us for help to increase
     Sentence-BERT is a modification of the BERT framework for enabling large-scale semantic similarity comparison, clustering, and information retrieval.
 
 Sentence-BERT, or SBERT, uses siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity. A siamese network consists of two or more identical subnetworks, where the two subnetworks share the same weights. Weights updating is mirrored across the subnetworks during training. The following is a diagram of the SBERT architecture with classification objective function:
+
 ![alt text](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-GPXX068IEN/images/SBERT.png)
 It's apparent that SBERT uses two "twin" BERT models and adds a pooling operation to the outputs of the two BERT models. The pooling layers create the fixed-size sentence embeddings for the input sentences.
 
