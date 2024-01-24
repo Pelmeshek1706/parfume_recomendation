@@ -1,5 +1,5 @@
 # Parfume recomendation
-#### made by [@pelmeshek1706](https://telegram.me/pelmeshek1706)
+#### made by Pelmeshek
 
 Let's imagine a situation, a perfumery company has asked us for help to increase online sales. We decided to make a recommendation system for its customers. The essence of it will be that the system will recommend to the customer a perfume that is similar to his last. As data, the company provided us with a text file containing all the perfumes that this company sells.
 
